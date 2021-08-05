@@ -42,8 +42,9 @@ public class Cat : Animal
                 Debug.Log("Naam te lang"); 
             }
             else
-            {
-                name = value; 
+            { 
+                // Naam geven. 
+                name = value;  
             }
         }
     }
